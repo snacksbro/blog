@@ -9,7 +9,7 @@ Enter Black. It's opinionated so there's no debate on how code should look. Line
 Pylint is another VSCode extension that can save time and catch dumb errors as you write them. It can also tell you when you're doing something inefficient and how to fix it to be more concise. ![pylint showcase](pylint-show2.png)
 
 ## Docstrings
-You may have noticed in the Pylint showcase that the linter got mad that I didn't write a docstring. This is a very good thing to get mad about since documentation is incredibly important when working as a team. ![docstring-example.png](path)
+You may have noticed in the Pylint showcase that the linter got mad that I didn't write a docstring. This is a very good thing to get mad about since documentation is incredibly important when working as a team. ![docstring-example.png](docstring-example.png)
 By writing a docstring, VSCode's intellisense can preview that for you so you know how to use a function someone else wrote instead of having to read the code yourself. There's also a VSCode extension to assist in this.
 
 ## Conventional Commits
