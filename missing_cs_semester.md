@@ -1,16 +1,16 @@
-# Your missing Semester of CS
+# Your Missing Semester of CS
 ## Professionals have standards, and so should you
-You ever have a codebase where people disagree on tabs/spaces? Or how many spaces to use? Or how long a line should be? Or if functions should have a space after them? Comment style? Brace style? It's pretty annoying that everyone has different ideas of what "right" looks like, and on a team the entire codebase could get messy.
+You ever have a codebase where people disagree on tabs/spaces? Or how many spaces to use? Or how long a line should be? Or if functions should have a newline after them? Comment style? Brace style? It's pretty annoying that everyone has different ideas of what "right" looks like, and on a team the entire codebase could get messy.
 
 Enter Black. It's opinionated so there's no debate on how code should look. Lines MUST be 80 characters at most. Spaces MUST be used and in increments of 4. It's commonly used in the industry to provide a clean and consistent codebase.
-"So you're saying I'm going to memorize Black's standards and follow them?" Nope! There's an extension for that in VSCode that executes Black formatting on write. You could write some grossly formatted code, save, and it'll instantly make it clean for you. This way, you're spending less time worrying about formatting and more time coding.
+"So you're saying I'm going to memorize Black's standards and follow them?" Nope! There's an [extension](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0) for that in VSCode that executes Black formatting on write. You could write some grossly formatted code, save, and it'll instantly make it clean for you. This way, you're spending less time worrying about formatting and more time coding.
 
 ## Addressing "Skill Issues" before you run the code
-Pylint is another VSCode extension that can save time and catch dumb errors as you write them. It can also tell you when you're doing something inefficient and how to fix it to be more concise. ![pylint showcase](pylint-show2.png)
+Pylint is another [VSCode extension](https://code.visualstudio.com/docs/python/linting) that can save time and catch dumb errors as you write them. It can also tell you when you're doing something inefficient and how to fix it to be more concise. ![pylint showcase](pylint-show2.png)
 
 ## Docstrings
 You may have noticed in the Pylint showcase that the linter got mad that I didn't write a docstring. This is a very good thing to get mad about since documentation is incredibly important when working as a team. ![docstring-example.png](docstring-example.png)
-By writing a docstring, VSCode's intellisense can preview that for you so you know how to use a function someone else wrote instead of having to read the code yourself. There's also a VSCode extension to assist in this.
+By writing a docstring, VSCode's IntelliSense can preview that for you so you know how to use a function someone else wrote instead of having to read the code yourself. There's also a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) to assist in this.
 
 ## Conventional Commits
 First, [understand how to write a good commit](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/). For example, instead of "Added docstring to my_fun", you would word it as "Add docstring to my_fun". The idea is that if you were to say "This commit will ____" followed by your commit message, the sentence would make grammatical sense. This may seem petty but it's the industry standard, as you can see in virtually any major repo on GitHub.
